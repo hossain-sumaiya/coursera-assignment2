@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #F8F9FB;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* Header */
+#header-nav {
+	background-color: #C6C7C9;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding:40px 5px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #000000;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #ffffff;
+}
+
+/* Color of the 3line */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000000;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -35px;
+}
+
+/* End Header */
+
+/* Home Page */
+h2#menu-categories-title{
+	font-weight: bold;
+}
+
+
+.menu-item-description {
+	background-color: #ffffff;
+	border: 2px solid black;
+	float: left;
+	margin: 25px 0px;
+	padding: 25px;
+}
+
+h3{
+	font-family: 'Lora', serif;
+	text-align: center;
+	margin: 10px 0;
+	font-weight: bold;
+	font-style: italic;
+}
+.menu-item-details {
+	text-align: justify;
+}
+/* End Home Page */
+
+/** Large Devices **/
+@media (min-width: 1200px) {
+	.navbar-brand h1 {
+		margin-left: -5px;
+	}
+	.menu-item-description {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+}
+
+
+/** Medium Devices **/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-brand h1 {
+		margin-left: -5px;
+	}
+	.menu-item-description {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+}
+
+
+/** Small Devices **/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand h1 {
+		margin-left: -5px;
+	}
+	.menu-item-description {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+	
+}
+
+/** Extra small Devices */
+@media (max-width: 767px) {
+
+}
